@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\noti.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\noti.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\flag_usa.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\flag_usa.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\help.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\help.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\guide2.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\guide2.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\flag_japan.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\flag_japan.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\first.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\first.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\guide1.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\guide1.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\guide3.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\guide3.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\flag_china.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\flag_china.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\flag_russia.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\flag_russia.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\flag_canada.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\flag_canada.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\flag_singapore.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\drawable-xxhdpi\\flag_singapore.png"
+    }
+]

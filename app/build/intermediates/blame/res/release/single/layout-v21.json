@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\fc57c30882b46bf311e6f0e8284665e2a2cfaca4\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\fc57c30882b46bf311e6f0e8284665e2a2cfaca4\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\fc57c30882b46bf311e6f0e8284665e2a2cfaca4\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\fc57c30882b46bf311e6f0e8284665e2a2cfaca4\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]
