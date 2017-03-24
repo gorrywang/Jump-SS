@@ -87,34 +87,11 @@ public class SplashActivity extends AppCompatActivity {
         }
     };
 
-    /**
-     * 解析Json数据
-     */
-    private void parsingJson(String jsonData) {
-        try {
-            JSONObject jsonObject = new JSONObject(jsonData);
-            int server = jsonObject.getInt("server");
-            int version = jsonObject.getInt("version");
-            String url = jsonObject.getString("url");
-            String content = jsonObject.getString("content");
-            if (server == 0) {
-                //服务器禁止使用，销毁界面
-                mHandler.sendEmptyMessage(SERVICE_STOP);
-                return;
-            }
-            //比较版本
-            isNewVersion(version, url, content);
-
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-    }
 
     /**
      * 判断版本是否更新
      *
      * @param version
-     * @param s
      * @param url
      */
     private void isNewVersion(int version, String url, String content) {
@@ -248,9 +225,6 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void onSuccess(String data) {
                 //获取成功
-//                Message msg = mHandler.obtainMessage(SUCCESS);
-//                msg.obj = data;
-//                mHandler.sendMessage(msg);
                 //有数据
                 parsingJson(data);
             }
@@ -263,6 +237,29 @@ public class SplashActivity extends AppCompatActivity {
                 mHandler.sendMessage(msg);
             }
         });
+    }
+
+    /**
+     * 解析Json数据
+     */
+    private void parsingJson(String jsonData) {
+        try {
+            JSONObject jsonObject = new JSONObject(jsonData);
+            int server = jsonObject.getInt("server");
+            int version = jsonObject.getInt("version");
+            String url = jsonObject.getString("url");
+            String content = jsonObject.getString("content");
+            if (server == 0) {
+                //服务器禁止使用，销毁界面
+                mHandler.sendEmptyMessage(SERVICE_STOP);
+                return;
+            }
+            //比较版本
+            isNewVersion(version, url, content);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
