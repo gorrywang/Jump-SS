@@ -163,7 +163,7 @@ public class SplashActivity extends AppCompatActivity {
     private void regBroadcast() {
         mMyBroadcast = new MyBroadcast();
         IntentFilter intentFilter = new IntentFilter("com.jump.apk");
-//        intentFilter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
+        intentFilter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
         registerReceiver(mMyBroadcast, intentFilter);
     }
 
@@ -177,10 +177,6 @@ public class SplashActivity extends AppCompatActivity {
             ActivityCompat.requestPermissions(SplashActivity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
             return;
         }
-        //已经同意
-        //注册广播
-        regBroadcast();
-        initAnimation();
         getData();
     }
 
@@ -191,8 +187,11 @@ public class SplashActivity extends AppCompatActivity {
         bindID();
         //启动服务
         startServer();
-        //申请权限
-        sqqx();
+        //注册广播
+        regBroadcast();
+        //同意
+        initAnimation();
+
     }
 
     //启动服务
@@ -328,10 +327,7 @@ public class SplashActivity extends AppCompatActivity {
             case 1:
                 //判断
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    //同意
-                    //注册广播
-                    regBroadcast();
-                    initAnimation();
+
                     getData();
 
                 } else {
@@ -381,11 +377,12 @@ public class SplashActivity extends AppCompatActivity {
                 //判断是否连接
                 if (networkInfo != null && networkInfo.isAvailable()) {
 
-                    Toast.makeText(SplashActivity.this, "网络正常",
-                            Toast.LENGTH_SHORT).show();
-                    getData();
+//                    Toast.makeText(SplashActivity.this, "网络正常",
+//                            Toast.LENGTH_SHORT).show();
+                    //申请权限
+                    sqqx();
                 } else {
-                    Toast.makeText(SplashActivity.this, "网络异常",
+                    Toast.makeText(SplashActivity.this, "请检查网络状态",
                             Toast.LENGTH_SHORT).show();
                 }
             }
