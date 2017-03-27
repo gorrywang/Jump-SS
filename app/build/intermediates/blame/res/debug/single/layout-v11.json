@@ -1,26 +1,26 @@
 [
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\layout-v11\\notification_media_action.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\layout-v11\\notification_media_action.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\layout-v11\\notification_template_big_media.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\layout-v11\\notification_template_big_media.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     }
 ]

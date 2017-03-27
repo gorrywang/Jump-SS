@@ -111,7 +111,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //只能刷一次
     private boolean mIsBool = false;
+    //修复有的链接没有ss
+    private boolean mBool = true;
 
     //解析数据
     private void jx(String data) {
@@ -163,9 +166,15 @@ public class MainActivity extends AppCompatActivity {
                             int aaa = 1;
                             for (Element element3 : a) {
                                 if (aaa == a.size()) {
-//                                Log.e("a",element3.attr("href").toString());
+                                    Log.e("a", element3.attr("href").toString());
                                     String href = element3.attr("href").toString();
-                                    String ss = href.substring(href.indexOf("ss"));
+                                    //是否存在ss字样
+                                    int indexOf = href.indexOf("ss");
+                                    if (indexOf == -1) {
+                                        mBool = false;
+                                        continue;
+                                    }
+                                    String ss = href.substring(indexOf);
                                     Log.e("a", ss);
                                     mImg = ss;
                                 }
@@ -210,10 +219,15 @@ public class MainActivity extends AppCompatActivity {
                             aa++;
                         }
                     }
-                    //添加
-                    ShowVO showVO = new ShowVO(mAddress, mIp, mPost, mPassword, mEncryption, mName, mImg, mmm);
-                    mList.add(showVO);
-                    showVO = null;
+                    //修复有的链接没有ss
+                    if (mBool) {
+                        //添加
+                        ShowVO showVO = new ShowVO(mAddress, mIp, mPost, mPassword, mEncryption, mName, mImg, mmm);
+                        mList.add(showVO);
+                        showVO = null;
+                    } else {
+                        mBool = true;
+                    }
                 }
             }
         }
@@ -249,10 +263,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.menu_2:
                 Intent intent2 = new Intent(MainActivity.this, ExplainActivity.class);
-                intent2.putExtra(ExplainActivity.EXPLAIN_CONTENT, "\n1.本软件是个人在学习android的过程中，" +
-                        "自己突发奇想做出来的，来检验自己的开发水平，节点采用的第三方分享的免费节点，软件" +
-                        "有许多的不足，自己将会进行不断地完善，来改进本项目。\n\n2.软件会进行不断更新，如启动" +
-                        "时发现更新，请及时更新。\n");
+                intent2.putExtra(ExplainActivity.EXPLAIN_CONTENT, "\n1.大学狗一枚\n2.专业是移动互联开发\n3.本项目是为了检验自己的学习能力\n");
                 intent2.putExtra(ExplainActivity.EXPLAIN_TITLE, "关于我们");
                 startActivity(intent2);
                 break;

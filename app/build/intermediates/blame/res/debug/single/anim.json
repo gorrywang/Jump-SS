@@ -1,66 +1,66 @@
 [
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\anim\\abc_slide_in_top.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f69b7b3732ec92dc9d540937f7ac002c82e4f43d\\output\\res\\anim\\design_snackbar_in.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\8a2e7fdcdaf6d7744276b4204fa4d1398631034b\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f69b7b3732ec92dc9d540937f7ac002c82e4f43d\\output\\res\\anim\\design_snackbar_out.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\8a2e7fdcdaf6d7744276b4204fa4d1398631034b\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\anim\\abc_popup_enter.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f69b7b3732ec92dc9d540937f7ac002c82e4f43d\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\8a2e7fdcdaf6d7744276b4204fa4d1398631034b\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f69b7b3732ec92dc9d540937f7ac002c82e4f43d\\output\\res\\anim\\design_fab_in.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\8a2e7fdcdaf6d7744276b4204fa4d1398631034b\\output\\res\\anim\\design_fab_in.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\anim\\abc_fade_out.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\anim\\abc_fade_in.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\anim\\abc_slide_out_top.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f69b7b3732ec92dc9d540937f7ac002c82e4f43d\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\8a2e7fdcdaf6d7744276b4204fa4d1398631034b\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\anim\\abc_popup_exit.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\71aa7b0f995760fe085d6593ef1f393ef3687805\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\52b1f2e7631b5b7847b24085c491bf08a2bda5ea\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f69b7b3732ec92dc9d540937f7ac002c82e4f43d\\output\\res\\anim\\design_fab_out.xml"
+        "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\8a2e7fdcdaf6d7744276b4204fa4d1398631034b\\output\\res\\anim\\design_fab_out.xml"
     }
 ]
