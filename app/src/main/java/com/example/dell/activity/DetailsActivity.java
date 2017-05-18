@@ -47,7 +47,7 @@ public class DetailsActivity extends AppCompatActivity {
     private ImageView mImageCountry;
     private ImageView mImageQR;
     private Toolbar mToolbar;
-    private TextView mTextViewIP, mTextViewPost, mTextViewPassword, mTextViewJm;
+    private TextView mTextViewIP, mTextViewPost, mTextViewJm;
     private CollapsingToolbarLayout mCollBar;
     //二维码
     private Bitmap mBitmapCode;
@@ -146,8 +146,8 @@ public class DetailsActivity extends AppCompatActivity {
         mTextViewIP.setText(mShowVO.getmIp());
         //端口
         mTextViewPost.setText(mShowVO.getmPost());
-        //密码
-        mTextViewPassword.setText(mShowVO.getmPassword());
+//        //密码
+//        mTextViewPassword.setText(mShowVO.getmPassword());
         //加密
         mTextViewJm.setText(mShowVO.getmEncryption());
         //判断是否接近耗尽
@@ -206,7 +206,6 @@ public class DetailsActivity extends AppCompatActivity {
         mToolbar = (Toolbar) findViewById(R.id.details_toolbar);
         mTextViewIP = (TextView) findViewById(R.id.details_textView_ip);
         mTextViewPost = (TextView) findViewById(R.id.details_textView_post);
-        mTextViewPassword = (TextView) findViewById(R.id.details_textView_password);
         mTextViewJm = (TextView) findViewById(R.id.details_textView_jm);
         mCollBar = (CollapsingToolbarLayout) findViewById(R.id.details_collapsingToolbarLayout);
     }

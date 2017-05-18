@@ -33,6 +33,23 @@ public class ShowVO {
         this.mCountry = mCountry;
     }
 
+    /**
+     * @param mAddress    名称
+     * @param mIp         IP地址
+     * @param mPost       端口号
+     * @param mEncryption 加密方式
+     * @param mImg        ssr链接
+     * @param mCountry    国家旗帜
+     */
+    public ShowVO(String mAddress, String mIp, String mPost, String mEncryption, String mImg, int mCountry) {
+        this.mAddress = mAddress;
+        this.mIp = mIp;
+        this.mImg = mImg;
+        this.mCountry = mCountry;
+        this.mPost = mPost;
+        this.mEncryption = mEncryption;
+    }
+
     public int getmCountry() {
         return mCountry;
     }

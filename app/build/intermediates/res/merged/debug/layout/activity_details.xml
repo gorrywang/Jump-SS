@@ -139,32 +139,6 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="密码" />
-
-                        <TextView
-                            android:id="@+id/details_textView_password"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center_horizontal"
-                            android:padding="8dp"
-                            android:text="密码"
-                            android:textIsSelectable="true" />
-                    </LinearLayout>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#eeeeee" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="wrap_content"
-                            android:padding="8dp"
                             android:text="加密方式" />
 
                         <TextView
@@ -185,7 +159,7 @@
 
                     <Button
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="40dp"
                         android:background="@drawable/button"
                         android:onClick="copySS"
                         android:text="复制SS链接"

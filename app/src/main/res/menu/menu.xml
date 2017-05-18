@@ -6,6 +6,7 @@
         android:icon="@drawable/help"
         android:title="使用教程"
         app:showAsAction="always" />
+
     <item
         android:id="@+id/menu_2"
         android:icon="@drawable/help"

@@ -18,6 +18,8 @@ import com.example.dell.utils.HttpUtils;
 import com.example.dell.utils.PrivateUtils;
 import com.example.dell.vo.ShowVO;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -44,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         //设置toolbar
         setSupportActionBar(mToolbar);
         getData();
+        getContent();
         GridLayoutManager manager = new GridLayoutManager(MainActivity.this, 2);
         mAdapter = new MyRecyclerAdapter(mList);
         mRecyclerView.setLayoutManager(manager);
@@ -54,6 +57,34 @@ public class MainActivity extends AppCompatActivity {
         }
         //下拉刷新
         refreshData();
+    }
+
+
+    /**
+     * 获取数据
+     */
+    private String mHelp;
+    private String mAbout;
+
+    private void getContent() {
+        HttpUtils.getData(PrivateUtils.HELP_URL, new HttpCallBackListener() {
+            @Override
+            public void onSuccess(String data) {
+                //解析数据
+                try {
+                    JSONObject jsonObject = new JSONObject(data);
+                    mHelp = jsonObject.getString("help");
+                    mAbout = jsonObject.getString("about");
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            @Override
+            public void onError(int code, String error) {
+
+            }
+        });
     }
 
     private void refreshData() {
@@ -137,6 +168,8 @@ public class MainActivity extends AppCompatActivity {
         Elements table = document.select("table");
         //解析table
         for (Element element : table) {
+            if (!(element == table.get(0)))
+                return;
             //获取每行
             Elements tr = element.select("tr");
             int s = 0;
@@ -152,9 +185,9 @@ public class MainActivity extends AppCompatActivity {
                     String mAddress = null;
                     String mIp = null;
                     String mPost = null;
-                    String mPassword = null;
+//                    String mPassword = null;
                     String mEncryption = null;
-                    String mName = null;
+//                    String mName = null;
                     String mImg = null;
                     int mmm = R.mipmap.ic_launcher;
                     for (Element element2 : td) {
@@ -184,8 +217,9 @@ public class MainActivity extends AppCompatActivity {
                             Log.e("data", element2.text());
                             switch (aa) {
                                 case 1:
+                                    //服务器地址
                                     mAddress = element2.text();
-                                    //判断 国家国旗
+                                    //判断 国家国旗,取消
                                     if (mAddress.indexOf("加拿大") != -1) {
                                         mmm = R.drawable.flag_canada;
                                     } else if (mAddress.indexOf("中国") != -1 || mAddress.indexOf("台湾") != -1 || mAddress.indexOf("香港") != -1 || mAddress.indexOf("澳门") != -1 || mAddress.indexOf("北京") != -1 || mAddress.indexOf("上海") != -1) {
@@ -201,19 +235,20 @@ public class MainActivity extends AppCompatActivity {
                                     }
                                     break;
                                 case 2:
+                                    //服务器ip
                                     mIp = element2.text();
                                     break;
                                 case 3:
                                     mPost = element2.text();
                                     break;
                                 case 4:
-                                    mPassword = element2.text();
+//                                    mPassword = element2.text();
                                     break;
                                 case 5:
                                     mEncryption = element2.text();
                                     break;
                                 case 6:
-                                    mName = element2.text();
+//                                    mName = element2.text();
                                     break;
                             }
                             aa++;
@@ -222,7 +257,9 @@ public class MainActivity extends AppCompatActivity {
                     //修复有的链接没有ss
                     if (mBool) {
                         //添加
-                        ShowVO showVO = new ShowVO(mAddress, mIp, mPost, mPassword, mEncryption, mName, mImg, mmm);
+//                        ShowVO showVO = new ShowVO(mAddress, mIp, mPost, mPassword, mEncryption, mName, mImg, mmm);
+                        ShowVO showVO = new ShowVO(mAddress, mIp, mPost, mEncryption, mImg, mmm);
+
                         mList.add(showVO);
                         showVO = null;
                     } else {
@@ -241,35 +278,26 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * 菜单监听
-     *
-     * @param item
-     * @return
      */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_1:
                 Intent intent = new Intent(MainActivity.this, ExplainActivity.class);
-                intent.putExtra(ExplainActivity.EXPLAIN_CONTENT,
-                        "\n1.首页面进行加载各个节点的数据，如有更新可以下拉刷新。" +
-                                "\n\n2.点击各个节点可以看到详情页面，详情包括二维码" +
-                                "、IP地址、密码、加密方式。\n\n3.可以通过复制账号等" +
-                                "信息上网，也可以通过扫描二维码来上网。\n\n4.长按二维码可" +
-                                "触发下载该节点的二维码\n\n5.本项目" +
-                                "只是个人学习练习的项目。\n\n6.个人项目，请勿用于商业" +
-                                "用途。\n\n7.请在下载24小时之内删除该软件。\n");
+                intent.putExtra(ExplainActivity.EXPLAIN_CONTENT, mHelp);
                 intent.putExtra(ExplainActivity.EXPLAIN_TITLE, "使用说明");
                 startActivity(intent);
                 break;
             case R.id.menu_2:
                 Intent intent2 = new Intent(MainActivity.this, ExplainActivity.class);
-                intent2.putExtra(ExplainActivity.EXPLAIN_CONTENT, "\n1.大学狗一枚\n2.专业是移动互联开发\n3.本项目是为了检验自己的学习能力\n");
+                intent2.putExtra(ExplainActivity.EXPLAIN_CONTENT, mAbout);
                 intent2.putExtra(ExplainActivity.EXPLAIN_TITLE, "关于我们");
                 startActivity(intent2);
                 break;
         }
         return true;
     }
+
 
     private void bindID() {
         mToolbar = (Toolbar) findViewById(R.id.main_toolbar_title);
