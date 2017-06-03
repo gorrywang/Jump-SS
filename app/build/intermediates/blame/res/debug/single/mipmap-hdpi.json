@@ -1,7 +1,19 @@
 [
     {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\lanuch.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\src\\main\\res\\mipmap-hdpi\\lanuch.png"
+    },
+    {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\rocket.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\src\\main\\res\\mipmap-hdpi\\rocket.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\lanuch.png",

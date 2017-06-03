@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }

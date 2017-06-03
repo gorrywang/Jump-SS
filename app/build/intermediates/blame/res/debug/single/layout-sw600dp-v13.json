@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\44e9a7b4d1c78a8f57aa8d3d8287215dc92a6dcc\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\44e9a7b4d1c78a8f57aa8d3d8287215dc92a6dcc\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]

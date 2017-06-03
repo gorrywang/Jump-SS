@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
         "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\44e9a7b4d1c78a8f57aa8d3d8287215dc92a6dcc\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\44e9a7b4d1c78a8f57aa8d3d8287215dc92a6dcc\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     }
 ]

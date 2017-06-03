@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="javase-3.2.0">
     <CLASSES>
-      <root url="jar://D:/Program Files/Android/gradle/.gradle/caches/modules-2/files-2.1/com.google.zxing/javase/3.2.0/dc31d91cca282dd2d7fcd79d8510b7346c665426/javase-3.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.zxing/javase/3.2.0/dc31d91cca282dd2d7fcd79d8510b7346c665426/javase-3.2.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

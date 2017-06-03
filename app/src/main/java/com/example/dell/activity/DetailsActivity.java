@@ -5,6 +5,7 @@ import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -235,6 +236,27 @@ public class DetailsActivity extends AppCompatActivity {
         ClipboardManager cm = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
         cm.setText(strSS);
         Toast.makeText(DetailsActivity.this, "复制成功", Toast.LENGTH_SHORT).show();
+    }
+
+    /**
+     * 导入
+     * <action android:name="android.intent.action.VIEW"/>
+     * <category android:name="android.intent.category.DEFAULT"/>
+     * <category android:name="android.intent.category.BROWSABLE"/>
+     *
+     * @param view
+     */
+    public void impotSS(View view) {
+        try {
+            Intent intent = new Intent("android.intent.action.VIEW");
+            intent.addCategory("android.intent.category.DEFAULT");
+            intent.addCategory("android.intent.category.BROWSABLE");
+            intent.setData(Uri.parse(strSS));
+            startActivity(intent);
+            Toast.makeText(DetailsActivity.this, "导入成功", Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            Toast.makeText(DetailsActivity.this, "请安装SSR软件", Toast.LENGTH_SHORT).show();
+        }
     }
 
 }

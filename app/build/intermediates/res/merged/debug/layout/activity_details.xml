@@ -157,13 +157,34 @@
                         android:layout_height="1dp"
                         android:background="#eeeeee" />
 
-                    <Button
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:background="@drawable/button"
-                        android:onClick="copySS"
-                        android:text="复制SS链接"
-                        android:textColor="#ffffff" />
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="3dp">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/button"
+                            android:onClick="copySS"
+                            android:text="复制SS"
+                            android:textColor="#ffffff" />
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="1dp" />
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/button"
+                            android:onClick="impotSS"
+                            android:text="导入SS"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>

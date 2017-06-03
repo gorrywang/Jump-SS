@@ -4,12 +4,20 @@
         "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\44e9a7b4d1c78a8f57aa8d3d8287215dc92a6dcc\\output\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\44e9a7b4d1c78a8f57aa8d3d8287215dc92a6dcc\\output\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
         "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
         "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
@@ -28,16 +36,52 @@
         "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
     },
     {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
         "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
         "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
         "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",

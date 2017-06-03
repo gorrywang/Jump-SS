@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
         "source": "D:\\Program Files\\Android\\avd\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\AndroidStudioProjects\\Jump-SS\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Dell\\.android\\build-cache\\f01c50866ce4ff0f9602547039220be290552e12\\output\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]
